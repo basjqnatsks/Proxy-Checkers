@@ -1,0 +1,17 @@
+import os
+def install():
+    os.system('pip install colorama')
+    os.system('python -m pip install --upgrade pip')
+    os.system('pip install bcolors')
+    os.system('pip install bs4')
+    os.system('pip install websocket-client')
+    os.system('pip install speechrecognition')
+    os.system('pip install selenium')
+    os.system('pip install pydub')
+    os.system('pip install requests[socks]')
+    os.system('pip install requests')
+    os.system('pip install clarifai')
+    os.system('pip install pillow')
+    os.system('pip install colorama')
+    os.system('pip install opencv-python')
+    os.system('pip install opencv-contrib-python')
